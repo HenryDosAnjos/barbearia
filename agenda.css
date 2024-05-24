@@ -53,44 +53,13 @@ footer>img{
 
 
 /*daqui para baixo colocar o conteudo personalizado de cada pagina*/
-
-
-.foto{
-
-    width: 250px;
-    height: 300px;
-    border-radius: 10px;
-    margin: 30px;
-    border: 3px white solid;
+.agenda{
+    height: 400px;
+    width: 800px;
 }
-.alinhamento{
+.posiçao_agenda{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-
-}
-.alinhamentoicon{
-    margin-top: 100px;
-    display: flex;
     align-items: center;
-    justify-content: center;
 }
-.bloco-bio{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-flow: column;
-    background-color:  black;
-    opacity: 0,5;
-    width: 1100px;
-    height: auto;
-    color:white;
-    border: 2px white solid;
-    border-radius: 15px;
-}
-.bloco-bio>p{
-    margin-left: 80px;
-    margin-right: 80px;
-}
-
